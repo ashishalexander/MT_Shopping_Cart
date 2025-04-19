@@ -1,12 +1,40 @@
-# React + Vite
+Shopping Cart App
+A simple React-based shopping cart application that allows users to browse products, add them to cart, and manage quantities. The application also features a special promotion that awards a free wireless mouse when the cart subtotal reaches 1000.
+Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Product catalog display with add-to-cart functionality
+Cart management (add, increase, decrease quantities)
+Real-time subtotal calculation
+Progress bar showing proximity to free gift threshold
+Free gift automatically added when spending threshold is met
 
-Currently, two official plugins are available:
+Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React
+State management with React Hooks (useState)
+Tailwind CSS for styling
 
-## Expanding the ESLint configuration
+Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Prerequisites
+
+Node.js (v14 or newer recommended)
+npm or yarn
+
+Installation
+
+Clone the repository:
+git clone https://github.com/yourusername/my-shopping-cart.git
+cd my-shopping-cart
+
+Install dependencies:
+npm install
+# or if using yarn
+yarn
+
+Start the development server:
+npm run dev
+# or if using yarn
+yarn dev
+
+Open your browser and navigate to http://localhost:5173 (or the port shown in your terminal)
